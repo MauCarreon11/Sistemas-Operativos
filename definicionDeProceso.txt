@@ -1,2 +1,10 @@
 Definición de Proceso
 El principal concepto en cualquier sistema operativo es el de proceso. Un proceso es un programa en ejecución, incluyendo el valor del program counter, los registros y las variables. Conceptualmente, cada proceso tiene un hilo (thread) de ejecución que es visto como un CPU virtual.
+
+
+ESTADOS DE UN PROCESO 
+ Nuevo (new): Cuando el proceso es creado.
+– Ejecutando (running): El proceso tiene asignado un procesador y está ejecutando sus instrucciones.
+– Bloqueado (waiting): El proceso está esperando por un evento (que se complete un pedido de E/S o una señal).
+– Listo (ready): El proceso está listo para ejecutar, solo necesita del recurso procesador.
+– Finalizado (terminated): El proceso finalizó su ejecución.
